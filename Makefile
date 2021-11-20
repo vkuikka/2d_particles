@@ -16,7 +16,7 @@ SDL = `sdl2-config --cflags` `sdl2-config --libs`
 all:
 	@make -C libft
 	@make -C lib_vec
-	gcc -O3 -fsanitize=address -g -o $(NAME) $(FILES) $(LIB) $(HEADERS) $(SDL)
+	gcc -O3 -o $(NAME) $(FILES) $(LIB) $(HEADERS) $(SDL)
 
 $(NAME): $(FILES)
 	gcc -O3 -fsanitize=address -g -o $(NAME) $(FILES) $(LIB) $(HEADERS) $(SDL)
