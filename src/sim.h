@@ -11,14 +11,14 @@
 # include <math.h>
 # include <SDL2/SDL.h>
 # include <stdio.h>
-# include "libft/includes/libft.h"
-# include "lib_vec/lib_vec.h"
+# include "libft.h"
+# include "lib_vec.h"
 
 # define COLOR_WATER 0x168bd9
 # define COLOR_SAND 0xd6a33c
 # define COLOR_STONE 0x777777
 # define COLOR_LAVA 0x992222
-# define COLOR_VOID 0x211342
+# define COLOR_VOID 0x41007a
 
 typedef enum s_particle
 {

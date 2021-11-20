@@ -8,7 +8,7 @@ static void		fill_sim(t_world *world)
 	x = 0;
 	while (x < SIM_SIZE)
 	{
-		y = 1;
+		y = 0;
 		while (y < SIM_SIZE)
 		{
 			world->sim[x][y] = world->addition;
